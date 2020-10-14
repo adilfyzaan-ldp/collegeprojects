@@ -1,0 +1,426 @@
+
+<!-- saved from url=(0054)file:///C:/Users/Hello/Desktop/project_files/port.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="./port_files/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+<style>
+	*{
+		box-sizing: border-box;
+		padding:0;
+		margin:0;
+	}
+	header{
+		background-color: #696969;
+		width: 100%;
+		height:90px;
+		font-size: 20px;
+		position:fixed;
+	}
+	#img{
+		display:flex;
+		
+		flex-direction: row;
+	}
+	.fa fa-users{
+		color:green;
+	}
+	#spa
+	{
+		color:red;
+		font-size: 25px;
+
+	}
+	nav{
+		display:flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: flex-end;
+	
+	}
+	ul{
+		
+		list-style: none;
+		float:right;
+		padding:20px 20px;
+		display:flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	li{
+		float:right;
+		
+
+	}
+	a{
+		color:#0000ff;
+		padding:20px 20px;
+
+	}
+	a:hover{
+		background-color: #e6e6fa;
+		border-bottom:green 2px solid;
+	}
+	#stud{
+		background-image: url("student.jpg");
+		width:100%;
+		height:1000px;
+		line-height: 1.6em;
+		opacity: 1.9;
+	}
+	#matt
+	{
+		display:flex;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+		height: 100%;
+		font-size: 20px;
+		font-family: verdana;
+		color:white;
+		padding-left: 30px;
+
+	}
+	#sec{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+
+	}
+
+	#about{
+		width:50%;
+		height:600px;
+		background-image: url("proof.jpg");
+		background-repeat: no-repeat;
+		object-fit: cover;
+	}
+	body{
+		
+	}
+	#matt2{
+		background-color:#eee8aa;
+		width:50%;
+		font-size: 20px;
+		font-family: arial;
+		line-height: :1.6em;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height:100%;
+		padding: 20px;
+		font-weight: bold;
+		color: black;
+		height:600px;
+	}
+	#matt2:hover{
+		background-color: white;
+	}
+	#head{
+		background-color: #ff7f50;
+		width:100%;
+		text-align: center;
+	}
+	#btn{
+		cursor:pointer;
+		display:inline-block;
+		padding:10px 30px;
+		color:#fff;
+		background-color: #28a745;
+		border:none;
+		border-radius: 6px;
+	}
+	#btn:hover{
+		opacity: 0.8;
+	}
+	#flex{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	#first {
+		height:350px;
+		width:30%;
+		background-color: #00ffff;
+		padding:10px;
+		font-size: 18px;
+		font-family: arial;
+		border-radius: 20%;
+		overflow: hidden;
+	}										
+	#spa2{
+		color:black;
+		display: flex;
+		flex-direction: row;
+		align-content: center;
+		justify-content: center;
+		}
+	#first p{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+		height:100%;
+	}
+	#section
+	{
+		height:630px;
+	}
+	#gall{
+		background: url("image.jpg") center center/cover;
+		display: flex;
+		background-repeat: no-repeat;
+		align-items: center;
+		align-content: center;
+		justify-content: space-around;
+		width:100%;
+		height:630px;
+		}
+	#head2{
+		align-items: center;
+		text-align: center;
+		font-size: 25px;
+		font-family: verdana;
+	}
+	#blog{
+	background-image:url("blog.png");
+	width:40%;
+	height:400px;
+	background-repeat:no-repeat;
+	float:left;
+	}
+#blogmat{
+	width:60%;
+	height:400px;
+	color:red;
+	text-align:center;
+	float:right;
+	background-color:#afeeee;
+	}
+#blogmat h1{
+	color:red;
+	font-size:30px;
+	padding:40px 10px;
+	text-align:center;
+	}
+#blogmat p{
+	color:red;
+	font-size:20px;
+	padding:50px 30px;
+	text-align:center;
+	}
+#blogmat button:hover{
+	border-width:3px;
+	border-color:red;
+	border-style:solid;
+	background-color:white;
+	font-size:25px;
+	
+	}
+#blogmat button{
+	border-width:3px;
+	border-color:red;
+	border-style:solid;
+	background-color:#ff7f50;
+	font-size:25px;
+	margin-top:30px;
+	}	
+#section2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width:100%;
+	height:300px;
+	background-color: black;
+	
+}
+#blog1{
+	width:30%;
+	height:100%;
+	padding:20px;
+	text-align: center;
+	font-size: 15px;
+	border:#fff 3px solid;
+	color: white;
+	
+}
+#spa3{
+	display: flex;
+		flex-direction: row;
+		align-content: center;
+		justify-content: center;
+		color: lightgreen;
+}	
+#spa3:hover
+{
+	opacity: 1.2;
+}
+#achieve{
+	text-align: center;
+	padding:30px;
+
+}
+#footer{
+	background-color: #808000;
+	height: 60px;
+	width: 100%;
+	display:flex;
+	flex-direction: row;
+	align-items: flex-start;
+	font-size: 20px;
+}
+#footer p{
+	text-align: center;
+	padding:20px;
+}
+
+#icon{
+	float:right;
+	padding:10px;
+	margin-left: 900px;
+}
+#spa4{
+	color:white;
+	padding:10px 20px;
+}
+#gallery{
+	padding 30px 0px;
+	text-align: center;
+}
+#achieve span{
+	color:#808000;
+}
+</style>
+
+</head>
+<body>
+	<header>
+		
+			<div id="img">
+			
+			<h1> <span id="spa"><i class="fa fa-users fa-3x"></i>PORT</span>folio</h1>
+		
+		<nav>
+			<ul>
+				<li><a href="home"> CONTACT</a></li>
+				<li><a href="filec"> ABOUT ME</a></li>
+				<li><a href="file:///C:"> HOME</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+<section>
+	<div id="stud">
+		<div id="matt">
+			<h1> HEY!! THIS IS MATT </h1>
+			<br>
+			<br>
+			<p>A student portfolio is a purposeful collection of work samples from each of the learning areas that stretch over a designated period of time. It may contain work samples from each learning area, assessment tasks, photos, student self-reflection, student learning goals and more.</p>
+		</div>
+	</div>
+</section>
+<section id="sec">
+	<div id="about">
+		
+	</div>
+	<div id="matt2">
+		<h1 id="head"> ABOUT ME</h1>
+		<br>
+		<br>
+		<p>I’m a Front End Develpoer and UI Designer Based in Austin. I have a Passion for
+			Creating Clean, Beautiful, Interactive, Minimalistic, Responsive and User Friendly UI, Developed by Modular,
+			Scalable and Functional Code.In recent years I've reviewed hundreds if not thousands of portfolios.And if there is one thing I learned, it's that one particular page on your portfolio always gets the most views. And funnily enough, it's not your most popular project.</p>
+			<br>
+			<br>
+		<button id="btn"> know more</button>
+	</div>
+	
+</section>
+<br>
+<br>
+<div id="achieve">
+	<span><h1><i class="fa fa-award fa-5x"></i>ACHIEVMENTS</h1></span>
+	</div>
+<section id="flex">
+	<div id="first">
+		<span id="spa2"><i class="fas fa-medal fa-5x"></i></span>
+		<p>Science Buddies' tenth grade science projects are the perfect way for tenth grade students to have fun exploring science, technology, engineering, and math (STEM). Our tenth grade projects are written and tested by scientists and are specifically created for use by students in the tenth grade.</p>
+	</div>
+	<div id="first">
+		<span id="spa2"><i class="fa fa-book fa-5x"></i></span>
+		<p>Science Buddies' tenth grade science projects are the perfect way for tenth grade students to have fun exploring science, technology, engineering, and math (STEM). Our tenth grade projects are written and tested by scientists and are specifically created for use by students in the tenth grade.</p>
+	</div>
+	<div id="first">
+		<span id="spa2"><i class="fa fa-trophy fa-5x"></i></span>
+		<p>Science Buddies' tenth grade science projects are the perfect way for tenth grade students to have fun exploring science, technology, engineering, and math (STEM). Our tenth grade projects are written and tested by scientists and are specifically created for use by students in the tenth grade.</p>
+	</div>
+	<br>
+	<br>
+	
+</section>
+<section>
+	<div id="gallery">
+	<h1 id="head2"> GALLERY</h1>
+</div>
+	<br>
+	<br>
+	<div id="gall">
+	</div>
+</section>
+<br>
+<br>
+<br>
+<section>
+	<div id="blog">
+</div>
+	<div id="blogmat">
+<h1> MY BLOGS</h1>
+<p>My name is Scott Chow, and I am going to show you how to start blogging. I have been building blogs and websites since 2002. In that time I have launched several of my own blogs, and helped hundreds of others do the same.Create a beautiful blog that fits your style. Choose from a selection of easy-to-use templates – all with flexible layouts and hundreds of background images – or design something new.
+</p>
+<button> POST<span>BLOGS</span></button>
+</div>
+</section>
+<br>
+
+<section id="section2">
+	<div id="blog1">
+		<span id="spa3"><i class="fa fa-id-badge fa-5x"></i></span>
+		<br>
+		<br>
+		<p>An award is a prize or certificate that a person is given for doing something well. ... In law, an award is a sum of money that a court decides should be given to someone.</p>
+	</div>
+	<div id="blog1">
+		<span id="spa3"><i class="fa fa-envelope-square fa-5x"></i></span>
+		<br>
+		<br>
+		<p>Your address is the number of the house, flat, or apartment and the name of the street and the town where you live or work.</p>
+	</div>
+	<div id="blog1">
+		<span id="spa3"><i class="fa fa-phone fa-5x"></i></span>
+		<br>
+		<br>
+		<p>Google has a robust backup utility that automatically backs up all data on your phone to your Google account, including contacts, texts</p>
+	</div>
+
+</section>
+<footer>
+	<div id="footer">
+	<p>copyright@blogs.com all rights reserved</p>
+	<div id="icon">
+		
+		<span id="spa4"><i class="fas fa-instagram fa-2x"></i></span>
+		<span id="spa4"><i class="fas fa-twitter fa-2x"></i></span>
+	</div>
+</div>
+
+</footer>
+
+</body>
+</html>
